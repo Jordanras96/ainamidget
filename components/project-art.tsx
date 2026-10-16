@@ -1,0 +1,5 @@
+export function ProjectArt({type}:{type:string}){
+ if(type==='impact')return <div className="project-art impact-art" aria-hidden="true"><span className="art-caption mono">DE L’INTENTION À L’IMPACT</span><div className="impact-circles"><span/><span/><span/><b>102<small>foyers bénéficiaires</small></b></div><span className="art-bottom mono">IKORIANTSOA / 2022 <span>↗</span></span></div>;
+ if(type==='science')return <div className="project-art science-art" aria-hidden="true"><span className="art-caption mono">OBSERVER. COMPRENDRE. AMÉLIORER.</span><div className="science-orbit"><span/><span/><span/><b>R&D</b></div><span className="art-bottom mono">SOCOLAIT / 2015 — 2020 <span>↗</span></span></div>;
+ return <div className="project-art editorial-art" aria-hidden="true"><span className="art-caption mono">LE SENS, AVANT TOUT.</span><div className="editorial-page"><span>ÉDITORIAL / 03</span><b>Les mots<br/>font <i>le lien.</i></b><div/><div/><div/></div><span className="art-bottom mono">OBOULO / DEPUIS 2023 <span>↗</span></span></div>;
+}
